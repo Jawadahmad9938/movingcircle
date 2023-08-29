@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+  width: 200px;
+  height: 200px;
+  /* background-image: linear-gradient(to left, rgb(214 218 21), rgb(29 187 146)); */
+  border: 6px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: auto; */
+  transition: all 3s ease 1s;
+  background-color: rgb(27, 146, 3);
+}
+
+.container {
+  background-image: linear-gradient(
+    to right,
+    rgb(169 24 24 / 55%),
+    rgb(182 19 224)
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:hover {
+  transform: rotate(360deg);
+  /* transform: scale(2); */
+  /* transform: scale(0.5); */
+  /* transform: rotate(-45deg); */
+  /* transform: skew(45deg); */
+  /* transform: skew(-45deg); */
+  background-color: steelblue;
+  border-radius: 110px;
+  /* transform: translate(500px,500px); */
+}
+
+p {
+  color: rgb(44, 3, 3);
+  text-shadow: 1px 3px red, 1px 6px blue, 1px 8px yellow;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bolder;
+  background-color: transparent;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <p>Mehrish</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
